@@ -1,0 +1,34 @@
+*{
+    transition: all 1s ease;
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+body{background-color: gray;}
+#mainSection
+{
+    height: 80vh;width: 50%;margin: auto;margin-top: 10vh;
+}
+img{
+    height: 70vh;display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ButtonSection{height: 8vh;width: 50%;margin-left: auto;
+    margin-right: auto;
+    display: flex;flex-direction: row;justify-content: space-around;align-items: center;
+}
+button{border: none;
+    height: 4vh;width: 5em; padding: .2em;border-radius: .5em;
+}
+#light{
+    background-color: rgb(227, 215, 215);
+}
+#Dark{
+    background-color: black;color: white;
+}
+#Yeollow{
+    background-color: yellow;
+}
+#green{
+    background-color: greenyellow;
+}
